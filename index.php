@@ -1,7 +1,7 @@
 <?php
 	require_once 'class/user.php';
 
-$user = new User('mysql:host=localhost;dbname=owlrav5_hotel','owlrav5_test','Welcome2FDU!');
+$user = new User('mysql:host=localhost;dbname=******','******','******');
 
 if(isset($_POST['sub'])){
 
